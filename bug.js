@@ -1,0 +1,2 @@
+function add(a, b) { return a + b; } function subtract(a, b) { return a - b; } function multiply(a, b) { return a 
+* b; } function divide(a, b) { if (b == 0) { throw new Error("Division by zero"); } return a / b; } let num1 = 10; let num2 = 0; let result = null; try { result = divide(num1, num2); } catch (error) { console.error("Error:", error.message); } console.log(result);
