@@ -1,0 +1,3 @@
+This repository contains examples of a common error in Javascript: division by zero. The `bug.js` file demonstrates the error, while `bugSolution.js` provides a solution.
+
+The error occurs when attempting to divide a number by zero. In Javascript, this operation throws an error.  This is a common pitfall in various applications and it's important to handle such potential exceptions to maintain the stability and reliability of your programs. The provided solution addresses this scenario, ensuring the program's smooth operation even when encountering invalid inputs.
